@@ -18,3 +18,20 @@ See `requirements.txt` for full list.
 We use the BERT model for sequence classification:
 
 We use a small sample from the Hugging Face IMDB dataset for quick training and evaluation
+
+
+Advance code:
+What's New in This Script:
+Increased training dataset size.
+
+max_length=256 for efficient memory use.
+
+Extra metrics: F1, precision, recall.
+
+EarlyStoppingCallback to avoid overfitting.
+
+gradient_accumulation_steps for better batch simulating.
+
+fp16 mixed-precision training if using GPU.
+
+save_best_model_at_end=True to store only the best version.
