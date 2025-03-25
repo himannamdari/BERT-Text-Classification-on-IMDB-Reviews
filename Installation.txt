@@ -1,0 +1,4 @@
+
+git clone https://github.com/your-username/bert-imdb-classifier.git
+cd bert-imdb-classifier
+pip install -r requirements.txt
