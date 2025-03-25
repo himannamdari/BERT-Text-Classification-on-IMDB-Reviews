@@ -16,3 +16,5 @@ See `requirements.txt` for full list.
 ## 🧠 Model
 
 We use the BERT model for sequence classification:
+
+We use a small sample from the Hugging Face IMDB dataset for quick training and evaluation
